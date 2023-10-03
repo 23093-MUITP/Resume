@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;523&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container for the entire resume */
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+.header {
+    font-family: 'Pixelify Sans', cursive;
+
+    text-align: center;
+}
+
+/* Name */
+.name {
+    font-size: 28px;
+    color: #08c277;
+    background-color: black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Contact information */
+.contact-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Section headings */
+.section-heading {
+    font-size: 20px;
+    font-family: 'Pixelify Sans', cursive;
+    color: #08c277;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Section content */
+.section-content {
+    margin-top: 10px;
+}
+
+/* Work experience job titles */
+.job-title {
+    font-size: 18px;
+    font-family: 'Pixelify Sans', cursive;
+    color: #08c277;
+    font-weight: bold;
+}
+
+/* Job details (company, dates) */
+.job-details {
+    font-size: 14px;
+    font-family: 'Pixelify Sans', cursive;
+
+    color: #888;
+}
+
+/* Job description bullet points */
+.job-description {
+    margin-top: 5px;
+    font-family: 'Pixelify Sans', cursive;
+    margin-left: 20px;
+}
+
+/* Skills list */
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    display: inline-block;
+    margin-right: 0%;
+    background-color: #007acc;
+    color: #9cebcc;
+    padding: 12px 9px;
+    border-radius: 10px;
+}
+
+/* Education degree */
+.degree {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* School details */
+.education {
+    font-size: 14px;
+    font-family: 'Pixelify Sans', cursive;
+
+    color: #078265;
+}
+
+/* Footer section */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
